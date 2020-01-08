@@ -1,10 +1,10 @@
 package com.regi.usermanagement;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class User {
 	
-	private int id;
+	private Integer id;
 	private String name;
 	private Date dateOfBirth;
 	private String email;
@@ -20,9 +20,7 @@ public class User {
 		this.username = username;
 	}
 	
-	public User() {
-		super();
-	}
+	public User() {}
 
 	public long getId() {
 		return id;
