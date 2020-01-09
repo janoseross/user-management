@@ -11,7 +11,7 @@ public class User {
 	private String username;
 	
 	
-	public User(int id, String name, Date dateOfBirth, String email, String username) {
+	public User(Integer id, String name, Date dateOfBirth, String email, String username) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -22,10 +22,10 @@ public class User {
 	
 	public User() {}
 
-	public long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	
